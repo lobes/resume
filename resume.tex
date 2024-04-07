@@ -1,4 +1,29 @@
 \documentclass{article}
+\usepackage[utf8]{inputenc} % Encoding
+\usepackage{geometry} % For setting page dimensions and margins
+\usepackage{setspace} % For setting line spacing
+
+%% Helper Functions
+% page margins
+\newcommand{\setPageMargins}[4]
+	{
+	  \geometry{left=#1, top=#2, right=#3, bottom=#4}
+	}
+% font-size
+\newcommand{\setFontSize}[1]
+{
+	\fontsize{#1}{#1 * 1.2}\selectfont
+}
+% line-spacing
+\newcommand{\setLineSpacing}[1]
+{
+	\setstretch{#1}
+}
+
+%% Page Setup
+\setPageMargins{2cm}{2cm}{2cm}{2cm} % Set page margins
+\setFontSize{12pt} % Set base font size
+\setLineSpacing{1.5} % Set line spacing
 
 \begin{document}
 
@@ -8,7 +33,7 @@
 
 \maketitle
 
-This is a simple LaTeX document.
+This is a simple LaTeX document, now with customisable page setup.
 
 \end{document}
-
+			

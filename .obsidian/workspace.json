@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a4bd9e32ac63965",
+            "id": "ca1b60e8cc8e492e",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -72,7 +72,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -146,6 +146,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -154,21 +156,20 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6a4bd9e32ac63965",
+  "active": "02a02d655befac04",
   "lastOpenFiles": [
-    "resume.synctex.gz",
-    "resume.synctex(busy)",
-    "ato-software-engineer-resume-content.md",
+    "Latex example.tex.md",
+    "Latex example .tex.md",
     "dump.md",
-    "Untitled 4.md",
-    "Bendigo Job.md",
     "job-find-ato.md",
+    "Bendigo Job.md",
     "job-find-proomt.md",
+    "ato-software-engineer-resume-content.md",
+    "resume.pdf",
+    "Untitled 4.md",
     "Untitled 3.md",
     "helix-common-motions.md",
     "ASD Python Job.md",
@@ -188,7 +189,6 @@
     "mermaid.md",
     "Elm 101.md",
     "ReBAC in Surreal.md",
-    "nix.md",
     "templates",
     "dev-log"
   ]
