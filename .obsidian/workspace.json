@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "42994e3a7f53d2ff",
+    "type": "split",
+    "children": [
+      {
+        "id": "ff984b920dd0b551",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a4bd9e32ac63965",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bendigo Job.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7be80d608902c77a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "job-find-proomt.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "349c404752241edf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "job-find-ato.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "719511e2cafa62bd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ato-software-engineer-resume-content.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca1b60e8cc8e492e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dump.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd1a054241668237",
+    "type": "split",
+    "children": [
+      {
+        "id": "18d3ea6af60cbd99",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "746d2a2216d77c0e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9734cd2a73bd19dc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "02a02d655befac04",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "895ad41010a2d559",
+            "type": "leaf",
+            "state": {
+              "type": "tagfolder-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fe12374f1134ea77",
+    "type": "split",
+    "children": [
+      {
+        "id": "15ded9c0bf03148f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f4b2f6da9de8263",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "dump.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2995cb5d936c1a4f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "dump.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8a8f09d9e74ca370",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "63940cbd2851536a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "dump.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "mermaid-tools:Open Mermaid Toolbar": false
+    }
+  },
+  "active": "ca1b60e8cc8e492e",
+  "lastOpenFiles": [
+    "ato-software-engineer-resume-content.md",
+    "dump.md",
+    "Untitled 4.md",
+    "Bendigo Job.md",
+    "job-find-ato.md",
+    "job-find-proomt.md",
+    "Untitled 3.md",
+    "helix-common-motions.md",
+    "ASD Python Job.md",
+    "Resume Lego.md",
+    "PITCH.md",
+    "ASD Resume.md",
+    "RICE.md",
+    "Bro Chat.md",
+    "Pasted image 20240331124103.png",
+    "Yo, I'll Tell You What I Want; What I Really Really Want.md",
+    "Good Friday Connection.md",
+    "the Rust Engineering Toolbox.md",
+    "dingus.md",
+    "Modern Software Engineering.md",
+    "elm-toolbox.md",
+    "nix-darwin + home-manager + flakes.md",
+    "mermaid.md",
+    "Elm 101.md",
+    "ReBAC in Surreal.md",
+    "nix.md",
+    "40k painting 101.md",
+    "templates",
+    "dev-log"
+  ]
+}
