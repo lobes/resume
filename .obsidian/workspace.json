@@ -11,64 +11,13 @@
             "id": "6a4bd9e32ac63965",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Bendigo Job.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7be80d608902c77a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "job-find-proomt.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "349c404752241edf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "job-find-ato.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "719511e2cafa62bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ato-software-engineer-resume-content.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca1b60e8cc8e492e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dump.md",
-                "mode": "source",
-                "source": false
+                "file": "resume.pdf"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "dump.md",
+                "file": "resume.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +109,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "dump.md",
+                "file": "resume.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -183,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dump.md"
+                "file": "resume.pdf"
               }
             }
           }
@@ -197,8 +146,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-textgenerator-plugin:Generate Text!": false,
-      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -207,11 +154,15 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "mermaid-tools:Open Mermaid Toolbar": false
+      "mermaid-tools:Open Mermaid Toolbar": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "ca1b60e8cc8e492e",
+  "active": "6a4bd9e32ac63965",
   "lastOpenFiles": [
+    "resume.synctex.gz",
+    "resume.synctex(busy)",
     "ato-software-engineer-resume-content.md",
     "dump.md",
     "Untitled 4.md",
@@ -238,7 +189,6 @@
     "Elm 101.md",
     "ReBAC in Surreal.md",
     "nix.md",
-    "40k painting 101.md",
     "templates",
     "dev-log"
   ]
