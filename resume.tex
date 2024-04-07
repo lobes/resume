@@ -1,39 +1,46 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc} % Encoding
-\usepackage{geometry} % For setting page dimensions and margins
-\usepackage{setspace} % For setting line spacing
+\documentclass[11pt,a4paper,sans]{moderncv} 
+\moderncvstyle{casual} % Style options: 'casual' (default), 'classic', 'oldstyle', 'banking'
+\moderncvcolor{blue} % Color options: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey', 'black'
 
-%% Helper Functions
-% page margins
-\newcommand{\setPageMargins}[4]
-	{
-	  \geometry{left=#1, top=#2, right=#3, bottom=#4}
-	}
-% font-size
-\newcommand{\setFontSize}[1]
-{
-	\fontsize{#1}{#1 * 1.2}\selectfont
-}
-% line-spacing
-\newcommand{\setLineSpacing}[1]
-{
-	\setstretch{#1}
-}
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.75]{geometry} % Adjust the page margins
 
-%% Page Setup
-\setPageMargins{2cm}{2cm}{2cm}{2cm} % Set page margins
-\setFontSize{12pt} % Set base font size
-\setLineSpacing{1.5} % Set line spacing
+% Personal data
+\name{John}{Doe}
+\title{Curriculum Vitae}                               
+\address{Street Address}{City, Country}{Postal Code}    
+\phone[mobile]{+1~(234)~567~890}                   
+\email{johndoe@email.com}                               
 
 \begin{document}
+\makecvtitle
 
-\title{Your First Document}
-\author{Your Name}
-\date{\today}
+\section{Education}
+\cventry{Year--Year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % Arguments not required can be left empty
 
-\maketitle
+\section{Experience}
+\subsection{Vocational}
+\cventry{Year--Year}{Job title}{Employer}{City}{}{General description no longer than 1--2 lines.\newline{}%
+Detailed achievements:
+\begin{itemize}
+\item Achievement 1;
+\item Achievement 2, with sub-achievement (a);
+\item Achievement 3.
+\end{itemize}}
+\subsection{Miscellaneous}
+\cventry{Year--Year}{Job title}{Employer}{City}{}{Description}
 
-This is a simple LaTeX document, now with customisable page setup.
+\section{Languages}
+\cvitemwithcomment{Language 1}{Skill level}{Comment}
+\cvitemwithcomment{Language 2}{Skill level}{Comment}
+
+\section{Computer skills}
+\cvdoubleitem{Category 1}{Detail1, Detail2, Detail3}{Category 4}{Detail1, Detail2, Detail3}
+
+\section{Interests}
+\cvitem{Hobby 1}{Description}
+\cvitem{Hobby 2}{Description}
+\cvitem{Hobby 3}{Description}
 
 \end{document}
-			
+
