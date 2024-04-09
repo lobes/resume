@@ -1,17 +1,152 @@
 \documentclass{article}
 
+\usepackage{fontspec}
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[margin=0.7cm]{geometry}
+
+\titleformat{\section}
+{\huge\bfseries} % formatting
+{} % numbering
+{0em} % gap between number and text
+{}
+
+\titleformat{\subsection}
+{\Large\bfseries} % formatting
+{} % numbering
+{0em} % gap between number and text
+{}
+
+\titleformat{\subsubsection}[runin]
+{\Large\bfseries} % formatting
+{} % numbering
+{0em} % gap between number and text
+{}
+
+\setmainfont{Comic Code Ligatures}
 \begin{document}
 
-\title{title}
+\title{resume}
 \author{Sam Giles}
 
-\maketitle
+\section{contact details }
 
-\section{contact details}
-\section{objective}
-\section{tech and skills}
-\section{experience}
+\subsection{ Sam Giles }
+
+\subsection{ lobes@duck.com }
+
+\subsection{ github.com/lobes }
+
+\subsection{ linkedin.com/in/sam-giles-96397176/ }
+
+\subsection{ 0422 582 812 }
+
+\section{ objective }
+
+Experienced Software Engineer seeking to leverage extensive background in full-stack development, RESTful API development, and DevOps practices within the Australian Taxation Office's EST business area. Committed to applying agile methodologies, continuous learning, and a user-centric approach to deliver high-quality IT applications.
+
+\section{ tech and skills }
+
+\subsection{ proficient }
+
+C\#, Python, bash/zsh, Git, GitHub, Azure, AWS, CI/CD workflows
+
+\subsection{ familiar }
+
+Docker, Terraform, Ansible, PostgreSQL, SQL Server, TypeScript, Haskell, Ruby, Elm, Rust, Go, Nix, NixOS
+
+\subsection{ science and the arts }
+
+Linear Algebra, Multivariate Calculus, Principal Component Analysis, Statistics for Data Science, Neuroscience, Geophysics, Philosophy
+
+\section{ experience }
+
+\subsection{ Veitch Lister Consulting }
+
+\subsubsection{ Melbourne, VIC }
+
+\subsubsection{ Senior Software Engineer }
+
+\subsubsection{ 2023 - 2024 }
+
+\subsubsection{ Geospatial Data Analysis Platform }
+
+Contributed to the development and maintenance of an innovative web application combining Elm for the frontend, and Haskell plus Ruby on Rails for the backend, enabling intuitive analysis and visualisation of complex population-based geospatial datasets. This involved close collaboration with the product and design teams to ensure a user-friendly interface and seamless user experience.
+
+\subsubsection{ Microservices Architecture Implementation }
+
+Designed and implemented the resource authorisation service, written as a microservice in Haskell, hosted on AWS. This service (and others) facilitated resource authorisation and efficient tile-server calls to AWS S3 storage, markedly improving the platform's performance and reliability.
+
+\subsubsection{ API Development and Integration }
+
+Developed RESTful APIs in Elm, Ruby, and Haskell to facilitate seamless integration between the platform and various data sources, ensuring accurate, real-time data availability for analysis.
+
+\subsubsection{ Continuous Integration, Continuous Deployment (CI/CD) Pipelines }
+
+Extended and maintained CI/CD pipelines using Terraform deployments in AWS, GitHub Actions for on-commit testing, and jobs run on CircleCI to automate testing, formatting, and deployment processes. This significantly reduced manual overhead, improved code quality, and accelerated feature delivery.
+
+\subsubsection{ Collaborative Team Leadership }
+
+Actively contributed to a cross-functional team, fostering a culture of innovation, continuous learning, and high performance. Mentored junior developers, sharing knowledge on best practices and emerging technologies.
+
+\subsection{ Onset Design }
+
+\subsubsection{ Melbourne, VIC }
+
+\subsubsection{ Backend ASP.Net Core Developer }
+
+\subsubsection{ 2022 - 2023 }
+
+\subsubsection{ Feature Expansion }
+
+Wrote the backend code to allow users of the online engineering document management system to merge and download multiple documents into either a single pdf or as a zip archive. Executed using an asynchronous workflow using C\# and Azure Functions, sending progress notifications back to the user.
+
+\subsubsection{ Research and Development }
+
+Tested and evaluated multiple libraries for receiving, storing, converting, and displaying large spatial point cloud data sets inside the document management system. Built a functional, stand-alone full-stack prototype and presented findings to the development team.
+
+\subsubsection{ Data Import }
+
+Heavily modified the existing data import procedure to require far less input from the user. Many iterations requiring multiple meetings with the end users and testers, gathering feedback and modifying accordingly. Wrote comprehensive documentation and usage instructions.
+
+\subsection{ PetroAus }
+
+\subsubsection{ Perth, WA }
+
+\subsubsection{ Full-Stack ASP.Net Core Developer }
+
+\subsubsection{ 2020 - 2021 }
+
+\subsubsection{ Feature Expansion }
+
+Extended the feature set of flagship online collaboration platform. Principal developer in charge of a data visualisation and yield prediction module. Responsible for: requirements gathering, UI design, front-end (HTML, CSS, JS), back-end (.NET Core 2.2), database schema (SQL Server), testing, user training.
+
+\subsubsection{ DevOps }
+
+Provisioned and managed several client-specific Azure cloud deployments in parallel (SQL Server Databases, Windows Server Sys Admin, VLAN and WAN network security, Active Directory integration).
+
+\subsubsection{ MATLAB Integration }
+
+Developed, tested, and deployed internal tooling to leverage MATLAB functions from an ASP.NET backend. This allowed us to recycle code from the engineering team (saving significant development time) and capitalise on MATLAB’s strengths (hyper efficient vectorised calculations).
+
+\subsection{ FEISAR }
+
+\subsubsection{ Singapore }
+
+\subsubsection{ Data Analyst and Business Administrator }
+
+\subsubsection{ 2018 - 2020 }
+
+\subsubsection{ KPI Dashboard }
+
+Collected data from staff to design KPI dashboards with input from the CTO. The feedback was positive and constructive, allowing me to iterate on the design.
+
+\subsubsection{ Task Automation }
+
+Responsible for developing internal command line tools to automate repetitive administrative tasks using bash, Python and UNIX programs. From reports, these tools are still used today.
+
 \section{education}
+
 \section{service}
 
 \end{document}
